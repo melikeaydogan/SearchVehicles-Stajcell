@@ -1,6 +1,6 @@
 # SearchVehicles-Stajcell
 
-Bu projede daha onceden verilen bir dosyadan belli olan araclar arasinda arama yapilmaktadir. Arama icin string girilmesi gerekmekte ve araclarin ozellikleri icerisinde bu dizinin gecmesi durumunda da bu araclarin bilgileri web sayfasina yansitilacaktir. Bu arama 4 farkli sekilde gerceklesebilmektedir. 
+Bu projede daha onceden verilen bir dosyadan (vehicles.txt) belli olan araclar arasinda arama yapilmaktadir. Arama icin string girilmesi gerekmekte ve araclarin ozellikleri icerisinde bu dizinin gecmesi durumunda da bu araclarin bilgileri web sayfasina yansitilacaktir. Bu arama 4 farkli sekilde gerceklesebilmektedir. 
 
 1 - Butun araclar arasindan arama "localhost:8080/search".
 
