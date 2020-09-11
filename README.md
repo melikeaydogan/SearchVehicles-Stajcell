@@ -18,3 +18,5 @@ Girilen stringin araclarin ozellikleri arasinda aranma surecinde de Knuth–Morr
 N : toplam arac sayisi , M : araclarin ozelliklerinin karakter sayisi olarak tanimlarsak aramanin zaman karmasikligi da O( NxM ) olmaktadir.
 
 Bu ozellikleri test ederkenden SoapUI uygulamasinin yardimiyla da yukaridaki bahsedilen linklerde gerekli GET ve POST talepleriyle de REST API uygulama test edildi.
+
+Not : Kodda database icin gerekli yerlere database, username, ve password girilmesi gerekli. Application.java ve application.properties dosyalarinda gerekli yerler belirtilmistir. pom.xml'de de ojdbc jarinin yuklenebilmesi icin bilgisayarinizda bulundugu konumu eklemelisiniz.
