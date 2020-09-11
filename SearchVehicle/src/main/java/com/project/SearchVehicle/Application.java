@@ -25,7 +25,7 @@ public class Application {
             Class.forName("oracle.jdbc.OracleDriver");
  
             // METHOD #1
-            String dbURL1 = "jdbc:oracle:thin:UCCS_TESTER/S_UCCS_TESTER@paytechstb.turkcell.tgc:1521:paytechstb";
+            String dbURL1 = "jdbc:oracle:thin:/*username*/ / /*password*/ @ /*database*/";
             conn = DriverManager.getConnection(dbURL1);
             if (conn != null) {
                 System.out.println("Connected.");
